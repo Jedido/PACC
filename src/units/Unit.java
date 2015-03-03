@@ -20,8 +20,10 @@ public abstract class Unit {
 	
 	public int calcTotal(int position) {
 		int total = 0;
-		for (int[] daily : dataSets.values())
+		for (int[] daily : dataSets.values()) {
 			total += daily[position];
+		}
+//		System.out.println(total);
 		return total;
 	}
 

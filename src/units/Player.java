@@ -20,7 +20,7 @@ public class Player extends Unit {
 
 	public void addEntry(String[] entryData) {
 		// Month, day, year
-		String[] fullDate = entryData[3].split("/");
+		String[] fullDate = entryData[2].split("/");
 
 		// Gregorian Calendar param = int year - 1990, int month from 0 - 11, 
 		// int day from 1 - 31
@@ -34,12 +34,12 @@ public class Player extends Unit {
 		playerData[0] = Integer.parseInt(entryData[1]);
 		for (int i = 3; i < 8; i++)
 			playerData[i - 2] = Integer.parseInt(entryData[i]);
-		playerData[6] = (int) (10 * Double.parseDouble(entryData[9]));
+		playerData[6] = (int) (10 * Double.parseDouble(entryData[8]));
 
 		getData().put(added, playerData);
 	}
 
-	public int calcAverage(int position, int startOfWeek, int endOfWeek) {
+	public double calcAverage(int position, int startOfWeek, int endOfWeek) {
 		int total = 0;
 		int numOfDays = 0;
 		for (int[] daily : getData().values()) {
@@ -48,7 +48,7 @@ public class Player extends Unit {
 				total += daily[position];
 			}
 		}
-		return total / numOfDays;
+		return (double) total / numOfDays;
 	}
 
 }
