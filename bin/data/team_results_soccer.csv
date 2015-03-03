@@ -1,0 +1,23 @@
+DAY_OF_WEEK,DATE,OPPONENT,HOME_OR_AWAY,LOCATION,TIME_PT,WIN_OR_LOSS,POINTS_FOR,POINTS_AGAINST,OVERTIME
+6,8/29/2014,Gonzaga,A,"Spokane, WA",17:00,W,4,0,0
+5,9/4/2014,Seattle,H,"Seattle, WA",19:30,W,4,1,0
+1,9/7/2014,St. Mary's (California),H,"Seattle, WA",13:00,L,1,2,1
+6,9/12/2014,Connecticut,H,"Seattle, WA",19:30,W,3,1,0
+1,9/14/2014,Pennsylvania,H,"Seattle, WA",13:00,W,3,1,0
+5,9/18/2014,Florida Gulf Coast,A,"Fort Myers, FL",16:00,W,1,0,0
+1,9/21/2014,South Florida,A,"Tampa, FL",16:30,W,2,1,0
+7,9/27/2014,Portland,A,"Portland, OR",19:00,W,2,1,1
+5,10/2/2014,California,H,"Seattle, WA",19:00,W,3,2,0
+1,10/5/2014,Stanford,H,"Seattle, WA",17:00,W,3,1,0
+1,10/12/2014,Oregon State,A,"Corvallis, OR",15:00,T,1,1,2
+5,10/16/2014,UCLA,A,"Los Angeles, CA",18:00,L,1,2,0
+1,10/19/2014,San Diego State,A,"San Diego, CA",18:30,W,3,2,0
+5,10/23/2014,UCLA,H,"Seattle, WA",19:30,L,1,2,0
+1,10/26/2014,San Diego State,H,"Seattle, WA",15:00,W,1,0,0
+6,11/7/2014,Stanford,A,"Stanford, CA",17:00,L,0,2,0
+1,11/9/2014,California,A,"Berkeley, CA",13:00,W,3,2,0
+1,11/16/2014,Oregon State,H,"Seattle, WA",13:00,L,0,2,0
+1,11/23/2014,Furman,H,"Seattle, WA",17:00,T,0,0,2
+,,,,,,,,,
+,,,,,,,,,
+,http://www.gohuskies.com/SportSelect.dbml?&DB_OEM_ID=30200&SPID=126611&SPSID=749515,,,,,,,,
