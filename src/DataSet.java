@@ -3,6 +3,8 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import units.Player;
+
 public class DataSet {
 
 	private HashMap<Integer, Player> roster;
